@@ -2,7 +2,8 @@
 
 #devel branch
 #global github_repo https://github.com/leamas/spotify-make/archive/%{commit}
-%global github_repo https://github.com/sergiomb2/spotify-make/archive/%{commit}
+#%global github_repo https://github.com/sergiomb2/spotify-make/archive/%{commit}
+%global github_repo https://github.com/tomich/spotify-make/archive/%{commit}
 # devel branch
 %global commit      62e266b593e4031a9a9209fbd17f287cc4cfb7a5
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
@@ -11,7 +12,7 @@
 
 Name:           lpf-spotify-client
                 # Upstream spotify version, verbatim.
-Version:        1.2.9.743
+Version:        1.2.11.916
 Release:        1%{?dist}
 Summary:        Spotify music player native client package bootstrap
 
