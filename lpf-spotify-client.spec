@@ -5,7 +5,7 @@
 #%global github_repo https://github.com/sergiomb2/spotify-make/archive/%{commit}
 %global github_repo https://github.com/tomich/spotify-make/archive/%{commit}
 # devel branch
-%global commit      62e266b593e4031a9a9209fbd17f287cc4cfb7a5
+%global commit      86dc12c3a5867594b0b06c18c9248609cc99e59d
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 
 %define         target_pkg %(t=%{name}; echo ${t#lpf-})
