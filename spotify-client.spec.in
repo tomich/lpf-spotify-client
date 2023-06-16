@@ -13,7 +13,7 @@
 
 
 Name:           spotify-client
-Version:        1.2.9.743
+Version:        1.2.11.916
 Release:        1%{?dist}
 Summary:        Spotify music player native client
 
@@ -27,7 +27,7 @@ ExclusiveArch:  %{ix86} x86_64
 Source0:        spotify-make-%{shortcommit}.tar.gz
 
 %ifarch x86_64
-Source1:        %{repo}/spotify-client_%{version}.g85d9593d_amd64.deb
+Source1:        %{repo}/spotify-client_%{version}.geb595a67_amd64.deb
 %global   spotify_pkg   %{SOURCE1}
 %global   req_64        ()(64bit)
 %else
